@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFF336392203B2C9005B5C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF336382203B2C9005B5C28 /* AppDelegate.swift */; };
+		DFF3363B2203B2C9005B5C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3363A2203B2C9005B5C28 /* ViewController.swift */; };
+		DFF3363E2203B2C9005B5C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF3363C2203B2C9005B5C28 /* Main.storyboard */; };
+		DFF336402203B2CA005B5C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF3363F2203B2CA005B5C28 /* Assets.xcassets */; };
+		DFF336432203B2CA005B5C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF336412203B2CA005B5C28 /* LaunchScreen.storyboard */; };
+		DFF3364E2203B2CB005B5C28 /* Nfl_arrestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3364D2203B2CB005B5C28 /* Nfl_arrestsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFF3364A2203B2CB005B5C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF3362D2203B2C9005B5C28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF336342203B2C9005B5C28;
+			remoteInfo = "Nfl-arrests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFF336352203B2C9005B5C28 /* Nfl-arrests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nfl-arrests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF336382203B2C9005B5C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFF3363A2203B2C9005B5C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFF3363D2203B2C9005B5C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFF3363F2203B2CA005B5C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFF336422203B2CA005B5C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFF336442203B2CA005B5C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF336492203B2CB005B5C28 /* Nfl-arrestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nfl-arrestsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF3364D2203B2CB005B5C28 /* Nfl_arrestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nfl_arrestsTests.swift; sourceTree = "<group>"; };
+		DFF3364F2203B2CB005B5C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFF336322203B2C9005B5C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF336462203B2CB005B5C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFF3362C2203B2C9005B5C28 = {
+			isa = PBXGroup;
+			children = (
+				DFF336372203B2C9005B5C28 /* Nfl-arrests */,
+				DFF3364C2203B2CB005B5C28 /* Nfl-arrestsTests */,
+				DFF336362203B2C9005B5C28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFF336362203B2C9005B5C28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF336352203B2C9005B5C28 /* Nfl-arrests.app */,
+				DFF336492203B2CB005B5C28 /* Nfl-arrestsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFF336372203B2C9005B5C28 /* Nfl-arrests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF336382203B2C9005B5C28 /* AppDelegate.swift */,
+				DFF3363A2203B2C9005B5C28 /* ViewController.swift */,
+				DFF3363C2203B2C9005B5C28 /* Main.storyboard */,
+				DFF3363F2203B2CA005B5C28 /* Assets.xcassets */,
+				DFF336412203B2CA005B5C28 /* LaunchScreen.storyboard */,
+				DFF336442203B2CA005B5C28 /* Info.plist */,
+			);
+			path = "Nfl-arrests";
+			sourceTree = "<group>";
+		};
+		DFF3364C2203B2CB005B5C28 /* Nfl-arrestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF3364D2203B2CB005B5C28 /* Nfl_arrestsTests.swift */,
+				DFF3364F2203B2CB005B5C28 /* Info.plist */,
+			);
+			path = "Nfl-arrestsTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFF336342203B2C9005B5C28 /* Nfl-arrests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF336522203B2CB005B5C28 /* Build configuration list for PBXNativeTarget "Nfl-arrests" */;
+			buildPhases = (
+				DFF336312203B2C9005B5C28 /* Sources */,
+				DFF336322203B2C9005B5C28 /* Frameworks */,
+				DFF336332203B2C9005B5C28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nfl-arrests";
+			productName = "Nfl-arrests";
+			productReference = DFF336352203B2C9005B5C28 /* Nfl-arrests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFF336482203B2CB005B5C28 /* Nfl-arrestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF336552203B2CB005B5C28 /* Build configuration list for PBXNativeTarget "Nfl-arrestsTests" */;
+			buildPhases = (
+				DFF336452203B2CB005B5C28 /* Sources */,
+				DFF336462203B2CB005B5C28 /* Frameworks */,
+				DFF336472203B2CB005B5C28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF3364B2203B2CB005B5C28 /* PBXTargetDependency */,
+			);
+			name = "Nfl-arrestsTests";
+			productName = "Nfl-arrestsTests";
+			productReference = DFF336492203B2CB005B5C28 /* Nfl-arrestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFF3362D2203B2C9005B5C28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kelsey Kjeldsen";
+				TargetAttributes = {
+					DFF336342203B2C9005B5C28 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DFF336482203B2CB005B5C28 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DFF336342203B2C9005B5C28;
+					};
+				};
+			};
+			buildConfigurationList = DFF336302203B2C9005B5C28 /* Build configuration list for PBXProject "Nfl-arrests" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFF3362C2203B2C9005B5C28;
+			productRefGroup = DFF336362203B2C9005B5C28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF336342203B2C9005B5C28 /* Nfl-arrests */,
+				DFF336482203B2CB005B5C28 /* Nfl-arrestsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFF336332203B2C9005B5C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF336432203B2CA005B5C28 /* LaunchScreen.storyboard in Resources */,
+				DFF336402203B2CA005B5C28 /* Assets.xcassets in Resources */,
+				DFF3363E2203B2C9005B5C28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF336472203B2CB005B5C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF336312203B2C9005B5C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF3363B2203B2C9005B5C28 /* ViewController.swift in Sources */,
+				DFF336392203B2C9005B5C28 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF336452203B2CB005B5C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF3364E2203B2CB005B5C28 /* Nfl_arrestsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFF3364B2203B2CB005B5C28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF336342203B2C9005B5C28 /* Nfl-arrests */;
+			targetProxy = DFF3364A2203B2CB005B5C28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFF3363C2203B2C9005B5C28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF3363D2203B2C9005B5C28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFF336412203B2CA005B5C28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF336422203B2CA005B5C28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFF336502203B2CB005B5C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFF336512203B2CB005B5C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFF336532203B2CB005B5C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RFS7JUG8Z;
+				INFOPLIST_FILE = "Nfl-arrests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kelseykjeldsen.Nfl-arrests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFF336542203B2CB005B5C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RFS7JUG8Z;
+				INFOPLIST_FILE = "Nfl-arrests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kelseykjeldsen.Nfl-arrests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFF336562203B2CB005B5C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RFS7JUG8Z;
+				INFOPLIST_FILE = "Nfl-arrestsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kelseykjeldsen.Nfl-arrestsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nfl-arrests.app/Nfl-arrests";
+			};
+			name = Debug;
+		};
+		DFF336572203B2CB005B5C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RFS7JUG8Z;
+				INFOPLIST_FILE = "Nfl-arrestsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kelseykjeldsen.Nfl-arrestsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nfl-arrests.app/Nfl-arrests";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFF336302203B2C9005B5C28 /* Build configuration list for PBXProject "Nfl-arrests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF336502203B2CB005B5C28 /* Debug */,
+				DFF336512203B2CB005B5C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF336522203B2CB005B5C28 /* Build configuration list for PBXNativeTarget "Nfl-arrests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF336532203B2CB005B5C28 /* Debug */,
+				DFF336542203B2CB005B5C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF336552203B2CB005B5C28 /* Build configuration list for PBXNativeTarget "Nfl-arrestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF336562203B2CB005B5C28 /* Debug */,
+				DFF336572203B2CB005B5C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFF3362D2203B2C9005B5C28 /* Project object */;
+}
